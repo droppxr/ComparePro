@@ -1,43 +1,43 @@
-# 📸 ComparePro - Image Comparator
+# 📸 ComparePro - Professional Image Comparator
 
-O **ComparePro** é uma ferramenta web leve e eficiente para comparação visual de imagens lado a lado. Ideal para designers, desenvolvedores e editores que precisam analisar detalhes minuciosos entre diferentes versões de um mesmo asset.
+**ComparePro** is a sleek, high-performance web tool designed for side-by-side visual image analysis. Whether you are a photographer, designer, or developer, ComparePro allows you to spot subtle differences between image versions with ease.
 
-## ✨ Demonstração
-* **Dark Mode Nativo:** Interface adaptável para maior conforto visual.
-* **Zoom Inteligente:** Passe o mouse sobre as imagens para um zoom detalhado sincronizado com a posição do cursor.
-* **Grid Dinâmico:** Suporta a comparação de 2 ou mais imagens simultaneamente.
-* **Navegação Rápida:** Atalhos de teclado (← e →) e menu seletor para alternar entre conjuntos de imagens.
+## ✨ Key Features
 
-## 🚀 Tecnologias Utilizadas
+* **Dynamic Grid Layout:** Automatically adjusts the layout based on whether you are comparing 2, 3, or more images.
+* **Pro-Level Zoom:** Features an intelligent hover-zoom effect that tracks your cursor for pixel-perfect inspection.
+* **Native Dark Mode:** Fully responsive UI with a professional dark theme (saved via LocalStorage).
+* **Keyboard Navigation:** Use `←` and `→` arrows to flip through your image sets instantly.
+* **Link Management:** Easily bulk-load image sets using a simple comma-separated format.
 
-* **HTML5**
-* **JavaScript (Vanilla)**
-* **Tailwind CSS** (via CDN para prototipagem rápida)
-* **Lucide Icons / SVG**
+## 🚀 Built With
 
-## ⚙️ Como Usar
+* **HTML5 & Vanilla JavaScript:** No heavy frameworks, just pure performance.
+* **Tailwind CSS:** For a modern, utility-first UI design.
+* **Asset Detection:** Automatic ID extraction from image URLs for easy organization.
 
-1.  Abra o arquivo `index.html` em qualquer navegador moderno.
-2.  Clique no botão **"Gerenciar Links"**.
-3.  Insira os links das imagens no formato:
+## ⚙️ How to Use
+
+1.  Open the `index.html` file in any modern web browser.
+2.  Click the **"Manage Links"** button.
+3.  Paste your image URLs in the following format:
     ```text
-    link_original, link_foto2, link_foto3
-    link2_original, link2_foto2
+    original_url, edit1_url, edit2_url
+    image2_original, image2_edit
     ```
-    *(Cada linha representa um conjunto de comparação; separe as imagens por vírgula)*.
-4.  Clique em **"Salvar Alterações"**.
-5.  Navegue entre os conjuntos usando as setas do teclado ou os botões na tela.
+    *(Each line represents a comparison set; separate individual images with commas).*
+4.  Hit **"Save Changes"** and start comparing!
 
-## ⌨️ Atalhos de Teclado
+## ⌨️ Keyboard Shortcuts
 
-| Tecla | Ação |
+| Key | Action |
 | :--- | :--- |
-| `→` (Seta Direita) | Próxima imagem/conjunto |
-| `←` (Seta Esquerda) | Imagem/conjunto anterior |
+| `→` (Right Arrow) | Next image set |
+| `←` (Left Arrow) | Previous image set |
 
-## 📄 Licença
+## 📄 License
 
-Este projeto está sob a licença **MIT**. Isso significa que você pode usar, copiar e modificar para qualquer fim, inclusive comercial.
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute it as you wish.
 
 ---
-Desenvolvido com foco em performance e experiência de usuário.
+*Created for clarity and precision in visual workflows.*
