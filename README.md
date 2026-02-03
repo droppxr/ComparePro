@@ -1,4 +1,6 @@
-# 📸 ComparePro - Professional Image Comparator
+# 📸 ComparePro - Professional Image Comparator 
+
+**Disclaimer** TOTALMENTE FEITO POR INTELIGENCIA ARTIFICIAL
 
 **ComparePro** is a sleek, high-performance web tool designed for side-by-side visual image analysis. Whether you are a photographer, designer, or developer, ComparePro allows you to spot subtle differences between image versions with ease.
 
